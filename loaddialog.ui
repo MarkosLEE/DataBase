@@ -18,7 +18,7 @@
     <rect>
      <x>200</x>
      <y>200</y>
-     <width>161</width>
+     <width>195</width>
      <height>61</height>
     </rect>
    </property>
@@ -43,9 +43,9 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>130</y>
+     <y>100</y>
      <width>211</width>
-     <height>61</height>
+     <height>98</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
@@ -59,15 +59,32 @@
     <item row="0" column="1">
      <widget class="QLineEdit" name="LineEdit"/>
     </item>
-    <item row="1" column="0">
+    <item row="2" column="0">
      <widget class="QLabel" name="Label_2">
       <property name="text">
        <string>密码</string>
       </property>
      </widget>
     </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="Label_3">
+      <property name="text">
+       <string>主机名</string>
+      </property>
+     </widget>
+    </item>
     <item row="1" column="1">
      <widget class="QLineEdit" name="LineEdit_2"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="LineEdit_3">
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

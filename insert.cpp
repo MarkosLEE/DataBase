@@ -18,6 +18,7 @@ Insert::~Insert()
 void Insert::on_pushButton_2_clicked()
 {
     QSqlQuery insert;
+    //这里遇到了一个大坑，即string的加法操作符两边不能同时是右值
     QString cmd="insert into user(Uid,Uname) values(\'"+ui->uidLineEdit->text()+"\',\'"+ui->unameLineEdit->text()+"\')";
     qDebug()<<cmd;
     insert.exec(cmd);
