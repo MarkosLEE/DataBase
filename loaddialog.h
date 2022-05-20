@@ -18,10 +18,11 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+
 
 private:
     Ui::LoadDialog *ui;
+    void isSupreme(QString userName);//判断是否为supreme用户
 };
 
 #endif // LOADDIALOG_H

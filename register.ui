@@ -47,24 +47,42 @@
      <widget class="QLineEdit" name="LineEdit"/>
     </item>
     <item row="1" column="0">
+     <widget class="QLabel" name="Label_2">
+      <property name="text">
+       <string>主机名</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="LineEdit_2"/>
+    </item>
+    <item row="2" column="0">
      <widget class="QLabel" name="Label_3">
       <property name="text">
        <string>密码</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="LineEdit_3"/>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="LineEdit_3">
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
     </item>
-    <item row="2" column="0">
+    <item row="3" column="0">
      <widget class="QLabel" name="Label_4">
       <property name="text">
        <string>确认密码</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="LineEdit_4"/>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="LineEdit_4">
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
